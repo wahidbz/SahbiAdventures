@@ -1,0 +1,1199 @@
+{
+  "worlds": [
+    {
+      "id": 1,
+      "name": "Tunis Medina",
+      "nameAr": "مدينة تونس",
+      "description": "Explore the ancient streets of Tunis Medina",
+      "descriptionAr": "اكتشف شوارع مدينة تونس العتيقة",
+      "icon": "🏛️",
+      "color": 14854387,
+      "levels": [
+        {
+          "id": 1,
+          "name": "First Steps",
+          "difficulty": "easy",
+          "worldId": 1,
+          "goalX": 1400,
+          "layout": [
+            {"x": 200, "y": 500, "width": 128, "height": 32},
+            {"x": 400, "y": 450, "width": 96, "height": 32},
+            {"x": 600, "y": 400, "width": 128, "height": 32},
+            {"x": 850, "y": 350, "width": 96, "height": 32},
+            {"x": 1050, "y": 300, "width": 160, "height": 32},
+            {"x": 1300, "y": 450, "width": 128, "height": 32}
+          ],
+          "enemies": [
+            {"type": "rodent", "x": 450, "y": 420, "speed": 50, "patrolRange": 100}
+          ],
+          "collectibles": [
+            {"type": "pi_coin", "x": 250, "y": 450},
+            {"type": "pi_coin", "x": 450, "y": 400},
+            {"type": "pi_coin", "x": 650, "y": 350},
+            {"type": "bread", "x": 900, "y": 300}
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Medina Rooftops",
+          "difficulty": "easy",
+          "worldId": 1,
+          "goalX": 1500,
+          "layout": [
+            {"x": 150, "y": 500, "width": 96, "height": 32},
+            {"x": 320, "y": 450, "width": 80, "height": 32},
+            {"x": 480, "y": 400, "width": 96, "height": 32},
+            {"x": 650, "y": 350, "width": 80, "height": 32},
+            {"x": 800, "y": 400, "width": 96, "height": 32},
+            {"x": 980, "y": 350, "width": 96, "height": 32},
+            {"x": 1180, "y": 300, "width": 128, "height": 32},
+            {"x": 1400, "y": 400, "width": 128, "height": 32}
+          ],
+          "enemies": [
+            {"type": "rodent", "x": 350, "y": 420, "speed": 60, "patrolRange": 80},
+            {"type": "bird", "x": 700, "y": 280, "speed": 80, "patrolRange": 150}
+          ],
+          "collectibles": [
+            {"type": "pi_coin", "x": 200, "y": 450},
+            {"type": "pi_coin", "x": 370, "y": 400},
+            {"type": "pi_coin", "x": 530, "y": 350},
+            {"type": "pi_coin", "x": 700, "y": 300},
+            {"type": "dates", "x": 1050, "y": 300},
+            {"type": "pi_coin", "x": 1230, "y": 250}
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Cat Alley",
+          "difficulty": "medium",
+          "worldId": 1,
+          "goalX": 1550,
+          "layout": [
+            {"x": 180, "y": 480, "width": 96, "height": 32},
+            {"x": 300, "y": 420, "width": 64, "height": 32},
+            {"x": 420, "y": 380, "width": 80, "height": 32},
+            {"x": 560, "y": 460, "width": 96, "height": 32},
+            {"x": 720, "y": 380, "width": 80, "height": 32},
+            {"x": 860, "y": 320, "width": 96, "height": 32},
+            {"x": 1020, "y": 400, "width": 112, "height": 32},
+            {"x": 1200, "y": 340, "width": 96, "height": 32},
+            {"x": 1380, "y": 420, "width": 128, "height": 32}
+          ],
+          "enemies": [
+            {"type": "rodent", "x": 350, "y": 390, "speed": 70, "patrolRange": 100},
+            {"type": "rodent", "x": 620, "y": 430, "speed": 60, "patrolRange": 120},
+            {"type": "bird", "x": 920, "y": 250, "speed": 90, "patrolRange": 180}
+          ],
+          "collectibles": [
+            {"type": "pi_coin", "x": 230, "y": 430},
+            {"type": "pi_coin", "x": 350, "y": 370},
+            {"type": "pi_coin", "x": 470, "y": 330},
+            {"type": "pi_coin", "x": 610, "y": 410},
+            {"type": "olive_oil", "x": 770, "y": 330},
+            {"type": "pi_coin", "x": 910, "y": 270},
+            {"type": "pi_coin", "x": 1070, "y": 350},
+            {"type": "bread", "x": 1250, "y": 290}
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Souq Challenge",
+          "difficulty": "medium",
+          "worldId": 1,
+          "goalX": 1600,
+          "layout": [
+            {"x": 160, "y": 500, "width": 96, "height": 32},
+            {"x": 280, "y": 440, "width": 64, "height": 32},
+            {"x": 380, "y": 380, "width": 80, "height": 32},
+            {"x": 500, "y": 320, "width": 64, "height": 32},
+            {"x": 620, "y": 400, "width": 96, "height": 32},
+            {"x": 780, "y": 340, "width": 80, "height": 32},
+            {"x": 920, "y": 280, "width": 96, "height": 32},
+            {"x": 1080, "y": 360, "width": 112, "height": 32},
+            {"x": 1260, "y": 300, "width": 96, "height": 32},
+            {"x": 1420, "y": 380, "width": 128, "height": 32}
+          ],
+          "enemies": [
+            {"type": "rodent", "x": 330, "y": 410, "speed": 80, "patrolRange": 90},
+            {"type": "guard", "x": 670, "y": 370, "speed": 50, "patrolRange": 100},
+            {"type": "bird", "x": 830, "y": 270, "speed": 100, "patrolRange": 160},
+            {"type": "rodent", "x": 1130, "y": 330, "speed": 70, "patrolRange": 110}
+          ],
+          "collectibles": [
+            {"type": "pi_coin", "x": 210, "y": 450},
+            {"type": "pi_coin", "x": 330, "y": 390},
+            {"type": "pi_coin", "x": 430, "y": 330},
+            {"type": "dates", "x": 550, "y": 270},
+            {"type": "pi_coin", "x": 670, "y": 350},
+            {"type": "pi_coin", "x": 830, "y": 290},
+            {"type": "olive_oil", "x": 970, "y": 230},
+            {"type": "pi_coin", "x": 1130, "y": 310},
+            {"type": "pi_coin", "x": 1310, "y": 250},
+            {"type": "bread", "x": 1470, "y": 330}
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Medina Boss",
+          "difficulty": "hard",
+          "worldId": 1,
+          "goalX": 1650,
+          "layout": [
+            {"x": 150, "y": 500, "width": 96, "height": 32},
+            {"x": 270, "y": 440, "width": 64, "height": 32},
+            {"x": 370, "y": 380, "width": 64, "height": 32},
+            {"x": 470, "y": 320, "width": 80, "height": 32},
+            {"x": 590, "y": 260, "width": 64, "height": 32},
+            {"x": 710, "y": 340, "width": 96, "height": 32},
+            {"x": 860, "y": 280, "width": 80, "height": 32},
+            {"x": 1000, "y": 360, "width": 96, "height": 32},
+            {"x": 1160, "y": 300, "width": 80, "height": 32},
+            {"x": 1300, "y": 240, "width": 96, "height": 32},
+            {"x": 1460, "y": 320, "width": 128, "height": 32}
+          ],
+          "enemies": [
+            {"type": "rodent", "x": 320, "y": 410, "speed": 90, "patrolRange": 80},
+            {"type": "bird", "x": 520, "y": 250, "speed": 110, "patrolRange": 140},
+            {"type": "guard", "x": 760, "y": 310, "speed": 60, "patrolRange": 120},
+            {"type": "rodent", "x": 910, "y": 250, "speed": 85, "patrolRange": 90},
+            {"type": "guard", "x": 1050, "y": 330, "speed": 65, "patrolRange": 110},
+            {"type": "bird", "x": 1210, "y": 230, "speed": 120, "patrolRange": 180}
+          ],
+          "collectibles": [
+            {"type": "pi_coin", "x": 200, "y": 450},
+            {"type": "pi_coin", "x": 320, "y": 390},
+            {"type": "dates", "x": 420, "y": 330},
+            {"type": "pi_coin", "x": 520, "y": 270},
+            {"type": "pi_coin", "x": 640, "y": 210},
+            {"type": "olive_oil", "x": 760, "y": 290},
+            {"type": "pi_coin", "x": 910, "y": 230},
+            {"type": "bread", "x": 1050, "y": 310},
+            {"type": "pi_coin", "x": 1210, "y": 250},
+            {"type": "pi_coin", "x": 1350, "y": 190},
+            {"type": "dates", "x": 1510, "y": 270}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Sidi Bou Said",
+      "nameAr": "سيدي بو سعيد",
+      "description": "Jump across the blue and white rooftops",
+      "descriptionAr": "اقفز عبر الأسطح الزرقاء والبيضاء",
+      "icon": "🏘️",
+      "color": 3447003,
+      "levels": [
+        {
+          "id": 6,
+          "name": "Blue Streets",
+          "difficulty": "easy",
+          "worldId": 2,
+          "goalX": 1450,
+          "layout": [
+            {"x": 180, "y": 490, "width": 112, "height": 32},
+            {"x": 340, "y": 430, "width": 80, "height": 32},
+            {"x": 480, "y": 370, "width": 96, "height": 32},
+            {"x": 640, "y": 430, "width": 96, "height": 32},
+            {"x": 800, "y": 370, "width": 112, "height": 32},
+            {"x": 980, "y": 310, "width": 96, "height": 32},
+            {"x": 1140, "y": 370, "width": 112, "height": 32},
+            {"x": 1320, "y": 430, "width": 128, "height": 32}
+          ],
+          "enemies": [
+            {"type": "bird", "x": 390, "y": 360, "speed": 85, "patrolRange": 130}
+          ],
+          "collectibles": [
+            {"type": "pi_coin", "x": 230, "y": 440},
+            {"type": "pi_coin", "x": 390, "y": 380},
+            {"type": "pi_coin", "x": 530, "y": 320},
+            {"type": "pi_coin", "x": 690, "y": 380},
+            {"type": "dates", "x": 850, "y": 320},
+            {"type": "pi_coin", "x": 1030, "y": 260}
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Balcony Hop",
+          "difficulty": "medium",
+          "worldId": 2,
+          "goalX": 1520,
+          "layout": [
+            {"x": 160, "y": 500, "width": 96, "height": 32},
+            {"x": 290, "y": 440, "width": 64, "height": 32},
+            {"x": 400, "y": 380, "width": 80, "height": 32},
+            {"x": 530, "y": 320, "width": 64, "height": 32},
+            {"x": 650, "y": 380, "width": 96, "height": 32},
+            {"x": 800, "y": 320, "width": 80, "height": 32},
+            {"x": 940, "y": 260, "width": 96, "height": 32},
+            {"x": 1100, "y": 320, "width": 80, "height": 32},
+            {"x": 1240, "y": 380, "width": 112, "height": 32},
+            {"x": 1410, "y": 440, "width": 128, "height": 32}
+          ],
+          "enemies": [
+            {"type": "bird", "x": 350, "y": 310, "speed": 95, "patrolRange": 140},
+            {"type": "rodent", "x": 700, "y": 350, "speed": 75, "patrolRange": 100},
+            {"type": "bird", "x": 990, "y": 190, "speed": 100, "patrolRange": 150}
+          ],
+          "collectibles": [
+            {"type": "pi_coin", "x": 210, "y": 450},
+            {"type": "pi_coin", "x": 340, "y": 390},
+            {"type": "pi_coin", "x": 450, "y": 330},
+            {"type": "olive_oil", "x": 580, "y": 270},
+            {"type": "pi_coin", "x": 700, "y": 330},
+            {"type": "pi_coin", "x": 850, "y": 270},
+            {"type": "bread", "x": 990, "y": 210},
+            {"type": "pi_coin", "x": 1150, "y": 270}
+          ]
+        },
+        {
+          "id": 8,
+          "name": "White Walls",
+          "difficulty": "medium",
+          "worldId": 2,
+          "goalX": 1580,
+          "layout": [
+            {"x": 150, "y": 490, "width": 96, "height": 32},
+            {"x": 270, "y": 430, "width": 64, "height": 32},
+            {"x": 370, "y": 370, "width": 80, "height": 32},
+            {"x": 490, "y": 310, "width": 64, "height": 32},
+            {"x": 600, "y": 370, "width": 96, "height": 32},
+            {"x": 750, "y": 310, "width": 80, "height": 32},
+            {"x": 880, "y": 250, "width": 96, "height": 32},
+            {"x": 1030, "y": 310, "width": 80, "height": 32},
+            {"x": 1160, "y": 370, "width": 96, "height": 32},
+            {"x": 1310, "y": 310, "width": 112, "height": 32},
+            {"x": 1480, "y": 390, "width": 128, "height": 32}
+          ],
+          "enemies": [
+            {"type": "bird", "x": 320, "y": 300, "speed": 105, "patrolRange": 130},
+            {"type": "guard", "x": 650, "y": 340, "speed": 55, "patrolRange": 110},
+            {"type": "bird", "x": 800, "y": 240, "speed": 100, "patrolRange": 150},
+            {"type": "rodent", "x": 1080, "y": 280, "speed": 80, "patrolRange": 100}
+          ],
+          "collectibles": [
+            {"type": "pi_coin", "x": 200, "y": 440},
+            {"type": "pi_coin", "x": 320, "y": 380},
+            {"type": "dates", "x": 420, "y": 320},
+            {"type": "pi_coin", "x": 540, "y": 260},
+            {"type": "pi_coin", "x": 650, "y": 320},
+            {"type": "olive_oil", "x": 800, "y": 260},
+            {"type": "pi_coin", "x": 930, "y": 200},
+            {"type": "pi_coin", "x": 1080, "y": 260},
+            {"type": "bread", "x": 1210, "y": 320}
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Stairs to Heaven",
+          "difficulty": "hard",
+          "worldId": 2,
+          "goalX": 1620,
+          "layout": [
+            {"x": 140, "y": 500, "width": 96, "height": 32},
+            {"x": 260, "y": 450, "width": 64, "height": 32},
+            {"x": 360, "y": 400, "width": 64, "height": 32},
+            {"x": 460, "y": 350, "width": 64, "height": 32},
+            {"x": 560, "y": 300, "width": 64, "height": 32},
+            {"x": 660, "y": 250, "width": 80, "height": 32},
+            {"x": 780, "y": 310, "width": 96, "height": 32},
+            {"x": 920, "y": 250, "width": 80, "height": 32},
+            {"x": 1050, "y": 310, "width": 96, "height": 32},
+            {"x": 1200, "y": 370, "width": 112, "height": 32},
+            {"x": 1370, "y": 310, "width": 96, "height": 32},
+            {"x": 1520, "y": 390, "width": 128, "height": 32}
+          ],
+          "enemies": [
+            {"type": "bird", "x": 310, "y": 330, "speed": 110, "patrolRange": 120},
+            {"type": "bird", "x": 510, "y": 280, "speed": 105, "patrolRange": 130},
+            {"type": "guard", "x": 710, "y": 220, "speed": 60, "patrolRange": 100},
+            {"type": "bird", "x": 830, "y": 240, "speed": 115, "patrolRange": 140},
+            {"type": "rodent", "x": 970, "y": 220, "speed": 85, "patrolRange": 90},
+            {"type": "guard", "x": 1100, "y": 280, "speed": 65, "patrolRange": 110}
+          ],
+          "collectibles": [
+            {"type": "pi_coin", "x": 190, "y": 450},
+            {"type": "pi_coin", "x": 310, "y": 400},
+            {"type": "pi_coin", "x": 410, "y": 350},
+            {"type": "dates", "x": 510, "y": 300},
+            {"type": "pi_coin", "x": 610, "y": 250},
+            {"type": "pi_coin", "x": 710, "y": 200},
+            {"type": "olive_oil", "x": 830, "y": 260},
+            {"type": "pi_coin", "x": 970, "y": 200},
+            {"type": "bread", "x": 1100, "y": 260},
+            {"type": "pi_coin", "x": 1250, "y": 320},
+            {"type": "dates", "x": 1420, "y": 260}
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Sidi Boss",
+          "difficulty": "hard",
+          "worldId": 2,
+          "goalX": 1700,
+          "layout": [
+            {"x": 130, "y": 510, "width": 96, "height": 32},
+            {"x": 250, "y": 460, "width": 64, "height": 32},
+            {"x": 350, "y": 410, "width": 64, "height": 32},
+            {"x": 450, "y": 360, "width": 64, "height": 32},
+            {"x": 550, "y": 310, "width": 64, "height": 32},
+            {"x": 670, "y": 370, "width": 96, "height": 32},
+            {"x": 810, "y": 310, "width": 80, "height": 32},
+            {"x": 940, "y": 250, "width": 96, "height": 32},
+            {"x": 1080, "y": 310, "width": 80, "height": 32},
+            {"x": 1210, "y": 250, "width": 96, "height": 32},
+            {"x": 1360, "y": 310, "width": 112, "height": 32},
+            {"x": 1530, "y": 370, "width": 128, "height": 32}
+          ],
+          "enemies": [
+            {"type": "bird", "x": 300, "y": 340, "speed": 120, "patrolRange": 130},
+            {"type": "bird", "x": 500, "y": 290, "speed": 115, "patrolRange": 140},
+            {"type": "guard", "x": 600, "y": 280, "speed": 70, "patrolRange": 100},
+            {"type": "bird", "x": 720, "y": 300, "speed": 125, "patrolRange": 150},
+            {"type": "guard", "x": 860, "y": 280, "speed": 65, "patrolRange": 110},
+            {"type": "bird", "x": 990, "y": 180, "speed": 120, "patrolRange": 160},
+            {"type": "rodent", "x": 1130, "y": 280, "speed": 90, "patrolRange": 95},
+            {"type": "guard", "x": 1260, "y": 220, "speed": 75, "patrolRange": 120}
+          ],
+          "collectibles": [
+            {"type": "pi_coin", "x": 180, "y": 460},
+            {"type": "pi_coin", "x": 300, "y": 410},
+            {"type": "pi_coin", "x": 400, "y": 360},
+            {"type": "dates", "x": 500, "y": 310},
+            {"type": "pi_coin", "x": 600, "y": 260},
+            {"type": "olive_oil", "x": 720, "y": 320},
+            {"type": "pi_coin", "x": 860, "y": 260},
+            {"type": "bread", "x": 990, "y": 200},
+            {"type": "pi_coin", "x": 1130, "y": 260},
+            {"type": "pi_coin", "x": 1260, "y": 200},
+            {"type": "dates", "x": 1410, "y": 260},
+            {"type": "olive_oil", "x": 1580, "y": 320}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Tunisian Desert",
+      "nameAr": "الصحراء التونسية",
+      "description": "Brave the scorching desert sands",
+      "descriptionAr": "واجه رمال الصحراء الحارقة",
+      "icon": "🏜️",
+      "color": 16100416,
+      "levels": [
+        {
+          "id": 11,
+          "name": "Sand Dunes",
+          "difficulty": "medium",
+          "worldId": 3,
+          "goalX": 1500,
+          "layout": [
+            {"x": 170, "y": 490, "width": 128, "height": 32},
+            {"x": 350, "y": 440, "width": 96, "height": 32},
+            {"x": 510, "y": 390, "width": 112, "height": 32},
+            {"x": 690, "y": 440, "width": 96, "height": 32},
+            {"x": 850, "y": 390, "width": 128, "height": 32},
+            {"x": 1050, "y": 340, "width": 112, "height": 32},
+            {"x": 1230, "y": 390, "width": 128, "height": 32},
+            {"x": 1420, "y": 450, "width": 128, "height": 32}
+          ],
+          "enemies": [
+            {"type": "rodent", "x": 400, "y": 410, "speed": 70, "patrolRange": 110}
+          ],
+          "collectibles": [
+            {"type": "pi_coin", "x": 220, "y": 440},
+            {"type": "pi_coin", "x": 400, "y": 390},
+            {"type": "pi_coin", "x": 560, "y": 340},
+            {"type": "dates", "x": 740, "y": 390},
+            {"type": "pi_coin", "x": 900, "y": 340},
+            {"type": "bread", "x": 1100, "y": 290}
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Camel Caravan",
+          "difficulty": "medium",
+          "worldId": 3,
+          "goalX": 1550,
+          "layout": [
+            {"x": 160, "y": 500, "width": 112, "height": 32},
+            {"x": 320, "y": 450, "width": 80, "height": 32},
+            {"x": 460, "y": 390, "width": 96, "height": 32},
+            {"x": 610, "y": 330, "width": 80, "height": 32},
+            {"x": 750, "y": 390, "width": 112, "height": 32},
+            {"x": 920, "y": 330, "width": 96, "height": 32},
+            {"x": 1080, "y": 390, "width": 112, "height": 32},
+            {"x": 1250, "y": 450, "width": 128, "height": 32},
+            {"x": 1440, "y": 500, "width": 128, "height": 32}
+          ],
+          "enemies": [
+            {"type": "bird", "x": 370, "y": 380, "speed": 100, "patrolRange": 140},
+            {"type": "rodent", "x": 660, "y": 300, "speed": 80, "patrolRange": 100},
+            {"type": "guard", "x": 800, "y": 360, "speed": 60, "patrolRange": 120}
+          ],
+          "collectibles": [
+            {"type": "pi_coin", "x": 210, "y": 450},
+            {"type": "pi_coin", "x": 370, "y": 400},
+            {"type": "pi_coin", "x": 510, "y": 340},
+            {"type": "olive_oil", "x": 660, "y": 280},
+            {"type": "pi_coin", "x": 800, "y": 340},
+            {"type": "pi_coin", "x": 970, "y": 280},
+            {"type": "dates", "x": 1130, "y": 340},
+            {"type": "bread", "x": 1300, "y": 400}
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Oasis Jump",
+          "difficulty": "medium",
+          "worldId": 3,
+          "goalX": 1600,
+          "layout": [
+            {"x": 150, "y": 490, "width": 96, "height": 32},
+            {"x": 280, "y": 430, "width": 64, "height": 32},
+            {"x": 390, "y": 370, "width": 80, "height": 32},
+            {"x": 520, "y": 310, "width": 64, "height": 32},
+            {"x": 640, "y": 370, "width": 96, "height": 32},
+            {"x": 790, "y": 310, "width": 80, "height": 32},
+            {"x": 930, "y": 250, "width": 96, "height": 32},
+            {"x": 1090, "y": 310, "width": 80, "height": 32},
+            {"x": 1230, "y": 370, "width": 112, "height": 32},
+            {"x": 1400, "y": 310, "width": 96, "height": 32},
+            {"x": 1550, "y": 390, "width": 128, "height": 32}
+          ],
+          "enemies": [
+            {"type": "bird", "x": 330, "y": 360, "speed": 105, "patrolRange": 130},
+            {"type": "rodent", "x": 440, "y": 340, "speed": 85, "patrolRange": 100},
+            {"type": "bird", "x": 690, "y": 300, "speed": 110, "patrolRange": 150},
+            {"type": "guard", "x": 840, "y": 280, "speed": 65, "patrolRange": 110},
+            {"type": "rodent", "x": 1140, "y": 280, "speed": 80, "patrolRange": 95}
+          ],
+          "collectibles": [
+            {"type": "pi_coin", "x": 200, "y": 440},
+            {"type": "pi_coin", "x": 330, "y": 380},
+            {"type": "dates", "x": 440, "y": 320},
+            {"type": "pi_coin", "x": 570, "y": 260},
+            {"type": "pi_coin", "x": 690, "y": 320},
+            {"type": "olive_oil", "x": 840, "y": 260},
+            {"type": "pi_coin", "x": 980, "y": 200},
+            {"type": "bread", "x": 1140, "y": 260},
+            {"type": "pi_coin", "x": 1280, "y": 320},
+            {"type": "pi_coin", "x": 1450, "y": 260}
+          ]
+        },
+        {
+          "id": 14,
+          "name": "Sandstorm",
+          "difficulty": "hard",
+          "worldId": 3,
+          "goalX": 1650,
+          "layout": [
+            {"x": 140, "y": 500, "width": 96, "height": 32},
+            {"x": 270, "y": 450, "width": 64, "height": 32},
+            {"x": 380, "y": 390, "width": 64, "height": 32},
+            {"x": 490, "y": 330, "width": 80, "height": 32},
+            {"x": 620, "y": 270, "width": 64, "height": 32},
+            {"x": 740, "y": 330, "width": 96, "height": 32},
+            {"x": 890, "y": 270, "width": 80, "height": 32},
+            {"x": 1030, "y": 330, "width": 96, "height": 32},
+            {"x": 1180, "y": 390, "width": 112, "height": 32},
+            {"x": 1350, "y": 330, "width": 96, "height": 32},
+            {"x": 1500, "y": 270, "width": 128, "height": 32}
+          ],
+          "enemies": [
+            {"type": "bird", "x": 320, "y": 380, "speed": 115, "patrolRange": 130},
+            {"type": "rodent", "x": 430, "y": 360, "speed": 90, "patrolRange": 100},
+            {"type": "bird", "x": 570, "y": 300, "speed": 120, "patrolRange": 140},
+            {"type": "guard", "x": 790, "y": 300, "speed": 70, "patrolRange": 110},
+            {"type": "bird", "x": 940, "y": 200, "speed": 125, "patrolRange": 150},
+            {"type": "rodent", "x": 1080, "y": 300, "speed": 85, "patrolRange": 95},
+            {"type": "guard", "x": 1230, "y": 360, "speed": 75, "patrolRange": 120}
+          ],
+          "collectibles": [
+            {"type": "pi_coin", "x": 190, "y": 450},
+            {"type": "pi_coin", "x": 320, "y": 400},
+            {"type": "pi_coin", "x": 430, "y": 340},
+            {"type": "dates", "x": 540, "y": 280},
+            {"type": "pi_coin", "x": 670, "y": 220},
+            {"type": "olive_oil", "x": 790, "y": 280},
+            {"type": "pi_coin", "x": 940, "y": 220},
+            {"type": "bread", "x": 1080, "y": 280},
+            {"type": "pi_coin", "x": 1230, "y": 340},
+            {"type": "dates", "x": 1400, "y": 280},
+            {"type": "pi_coin", "x": 1550, "y": 220}
+          ]
+        },
+        {
+          "id": 15,
+          "name": "Desert Boss",
+          "difficulty": "hard",
+          "worldId": 3,
+          "goalX": 1700,
+          "layout": [
+            {"x": 130, "y": 510, "width": 96, "height": 32},
+            {"x": 260, "y": 460, "width": 64, "height": 32},
+            {"x": 370, "y": 400, "width": 64, "height": 32},
+            {"x": 480, "y": 340, "width": 64, "height": 32},
+            {"x": 590, "y": 280, "width": 80, "height": 32},
+            {"x": 720, "y": 220, "width": 64, "height": 32},
+            {"x": 840, "y": 280, "width": 96, "height": 32},
+            {"x": 990, "y": 340, "width": 112, "height": 32},
+            {"x": 1150, "y": 280, "width": 96, "height": 32},
+            {"x": 1300, "y": 340, "width": 112, "height": 32},
+            {"x": 1470, "y": 400, "width": 128, "height": 32}
+          ],
+          "enemies": [
+            {"type": "bird", "x": 310, "y": 390, "speed": 125, "patrolRange": 140},
+            {"type": "guard", "x": 420, "y": 370, "speed": 75, "patrolRange": 100},
+            {"type": "bird", "x": 530, "y": 310, "speed": 130, "patrolRange": 150},
+            {"type": "rodent", "x": 640, "y": 250, "speed": 95, "patrolRange": 105},
+            {"type": "guard", "x": 770, "y": 190, "speed": 70, "patrolRange": 90},
+            {"type": "bird", "x": 890, "y": 210, "speed": 135, "patrolRange": 160},
+            {"type": "guard", "x": 1040, "y": 310, "speed": 80, "patrolRange": 120},
+            {"type": "bird", "x": 1200, "y": 210, "speed": 130, "patrolRange": 150},
+            {"type": "rodent", "x": 1350, "y": 310, "speed": 90, "patrolRange": 100}
+          ],
+          "collectibles": [
+            {"type": "pi_coin", "x": 180, "y": 460},
+            {"type": "pi_coin", "x": 310, "y": 410},
+            {"type": "dates", "x": 420, "y": 350},
+            {"type": "pi_coin", "x": 530, "y": 290},
+            {"type": "pi_coin", "x": 640, "y": 230},
+            {"type": "olive_oil", "x": 770, "y": 170},
+            {"type": "pi_coin", "x": 890, "y": 230},
+            {"type": "bread", "x": 1040, "y": 290},
+            {"type": "pi_coin", "x": 1200, "y": 230},
+            {"type": "dates", "x": 1350, "y": 290},
+            {"type": "olive_oil", "x": 1520, "y": 350}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Football Stadium",
+      "nameAr": "ملعب كرة القدم",
+      "description": "Navigate the stadium challenges",
+      "descriptionAr": "اجتز تحديات الملعب",
+      "icon": "⚽",
+      "color": 1752220,
+      "levels": [
+        {
+          "id": 16,
+          "name": "Training Ground",
+          "difficulty": "medium",
+          "worldId": 4,
+          "goalX": 1480,
+          "layout": [
+            {"x": 180, "y": 490, "width": 128, "height": 32},
+            {"x": 360, "y": 440, "width": 96, "height": 32},
+            {"x": 520, "y": 390, "width": 112, "height": 32},
+            {"x": 700, "y": 440, "width": 96, "height": 32},
+            {"x": 860, "y": 390, "width": 128, "height": 32},
+            {"x": 1060, "y": 340, "width": 112, "height": 32},
+            {"x": 1240, "y": 390, "width": 128, "height": 32},
+            {"x": 1430, "y": 450, "width": 128, "height": 32}
+          ],
+          "enemies": [
+            {"type": "rodent", "x": 410, "y": 410, "speed": 80, "patrolRange": 110}
+          ],
+          "collectibles": [
+            {"type": "pi_coin", "x": 230, "y": 440},
+            {"type": "pi_coin", "x": 410, "y": 390},
+            {"type": "pi_coin", "x": 570, "y": 340},
+            {"type": "dates", "x": 750, "y": 390},
+            {"type": "pi_coin", "x": 910, "y": 340},
+            {"type": "bread", "x": 1110, "y": 290}
+          ]
+        },
+        {
+          "id": 17,
+          "name": "Penalty Shoot",
+          "difficulty": "medium",
+          "worldId": 4,
+          "goalX": 1540,
+          "layout": [
+            {"x": 170, "y": 500, "width": 112, "height": 32},
+            {"x": 330, "y": 450, "width": 80, "height": 32},
+            {"x": 470, "y": 390, "width": 96, "height": 32},
+            {"x": 620, "y": 330, "width": 80, "height": 32},
+            {"x": 760, "y": 390, "width": 112, "height": 32},
+            {"x": 930, "y": 330, "width": 96, "height": 32},
+            {"x": 1090, "y": 390, "width": 112, "height": 32},
+            {"x": 1260, "y": 450, "width": 128, "height": 32},
+            {"x": 1450, "y": 500, "width": 128, "height": 32}
+          ],
+          "enemies": [
+            {"type": "bird", "x": 380, "y": 380, "speed": 105, "patrolRange": 140},
+            {"type": "rodent", "x": 670, "y": 300, "speed": 85, "patrolRange": 100},
+            {"type": "guard", "x": 810, "y": 360, "speed": 65, "patrolRange": 120}
+          ],
+          "collectibles": [
+            {"type": "pi_coin", "x": 220, "y": 450},
+            {"type": "pi_coin", "x": 380, "y": 400},
+            {"type": "pi_coin", "x": 520, "y": 340},
+            {"type": "olive_oil", "x": 670, "y": 280},
+            {"type": "pi_coin", "x": 810, "y": 340},
+            {"type": "pi_coin", "x": 980, "y": 280},
+            {"type": "dates", "x": 1140, "y": 340},
+            {"type": "bread", "x": 1310, "y": 400}
+          ]
+        },
+        {
+          "id": 18,
+          "name": "Midfield Battle",
+          "difficulty": "medium",
+          "worldId": 4,
+          "goalX": 1590,
+          "layout": [
+            {"x": 160, "y": 490, "width": 96, "height": 32},
+            {"x": 290, "y": 430, "width": 64, "height": 32},
+            {"x": 400, "y": 370, "width": 80, "height": 32},
+            {"x": 530, "y": 310, "width": 64, "height": 32},
+            {"x": 650, "y": 370, "width": 96, "height": 32},
+            {"x": 800, "y": 310, "width": 80, "height": 32},
+            {"x": 940, "y": 250, "width": 96, "height": 32},
+            {"x": 1100, "y": 310, "width": 80, "height": 32},
+            {"x": 1240, "y": 370, "width": 112, "height": 32},
+            {"x": 1410, "y": 310, "width": 96, "height": 32},
+            {"x": 1560, "y": 390, "width": 128, "height": 32}
+          ],
+          "enemies": [
+            {"type": "bird", "x": 340, "y": 360, "speed": 110, "patrolRange": 130},
+            {"type": "rodent", "x": 450, "y": 340, "speed": 90, "patrolRange": 100},
+            {"type": "bird", "x": 700, "y": 300, "speed": 115, "patrolRange": 150},
+            {"type": "guard", "x": 850, "y": 280, "speed": 70, "patrolRange": 110},
+            {"type": "rodent", "x": 1150, "y": 280, "speed": 85, "patrolRange": 95}
+          ],
+          "collectibles": [
+            {"type": "pi_coin", "x": 210, "y": 440},
+            {"type": "pi_coin", "x": 340, "y": 380},
+            {"type": "dates", "x": 450, "y": 320},
+            {"type": "pi_coin", "x": 580, "y": 260},
+            {"type": "pi_coin", "x": 700, "y": 320},
+            {"type": "olive_oil", "x": 850, "y": 260},
+            {"type": "pi_coin", "x": 990, "y": 200},
+            {"type": "bread", "x": 1150, "y": 260},
+            {"type": "pi_coin", "x": 1290, "y": 320},
+            {"type": "pi_coin", "x": 1460, "y": 260}
+          ]
+        },
+        {
+          "id": 19,
+          "name": "Goal Rush",
+          "difficulty": "hard",
+          "worldId": 4,
+          "goalX": 1640,
+          "layout": [
+            {"x": 150, "y": 500, "width": 96, "height": 32},
+            {"x": 280, "y": 450, "width": 64, "height": 32},
+            {"x": 390, "y": 390, "width": 64, "height": 32},
+            {"x": 500, "y": 330, "width": 80, "height": 32},
+            {"x": 630, "y": 270, "width": 64, "height": 32},
+            {"x": 750, "y": 330, "width": 96, "height": 32},
+            {"x": 900, "y": 270, "width": 80, "height": 32},
+            {"x": 1040, "y": 330, "width": 96, "height": 32},
+            {"x": 1190, "y": 390, "width": 112, "height": 32},
+            {"x": 1360, "y": 330, "width": 96, "height": 32},
+            {"x": 1510, "y": 270, "width": 128, "height": 32}
+          ],
+          "enemies": [
+            {"type": "bird", "x": 330, "y": 380, "speed": 120, "patrolRange": 130},
+            {"type": "rodent", "x": 440, "y": 360, "speed": 95, "patrolRange": 100},
+            {"type": "bird", "x": 580, "y": 300, "speed": 125, "patrolRange": 140},
+            {"type": "guard", "x": 800, "y": 300, "speed": 75, "patrolRange": 110},
+            {"type": "bird", "x": 950, "y": 200, "speed": 130, "patrolRange": 150},
+            {"type": "rodent", "x": 1090, "y": 300, "speed": 90, "patrolRange": 95},
+            {"type": "guard", "x": 1240, "y": 360, "speed": 80, "patrolRange": 120}
+          ],
+          "collectibles": [
+            {"type": "pi_coin", "x": 200, "y": 450},
+            {"type": "pi_coin", "x": 330, "y": 400},
+            {"type": "pi_coin", "x": 440, "y": 340},
+            {"type": "dates", "x": 550, "y": 280},
+            {"type": "pi_coin", "x": 680, "y": 220},
+            {"type": "olive_oil", "x": 800, "y": 280},
+            {"type": "pi_coin", "x": 950, "y": 220},
+            {"type": "bread", "x": 1090, "y": 280},
+            {"type": "pi_coin", "x": 1240, "y": 340},
+            {"type": "dates", "x": 1410, "y": 280},
+            {"type": "pi_coin", "x": 1560, "y": 220}
+          ]
+        },
+        {
+          "id": 20,
+          "name": "Stadium Boss",
+          "difficulty": "hard",
+          "worldId": 4,
+          "goalX": 1700,
+          "layout": [
+            {"x": 140, "y": 510, "width": 96, "height": 32},
+            {"x": 270, "y": 460, "width": 64, "height": 32},
+            {"x": 380, "y": 400, "width": 64, "height": 32},
+            {"x": 490, "y": 340, "width": 64, "height": 32},
+            {"x": 600, "y": 280, "width": 80, "height": 32},
+            {"x": 730, "y": 220, "width": 64, "height": 32},
+            {"x": 850, "y": 280, "width": 96, "height": 32},
+            {"x": 1000, "y": 340, "width": 112, "height": 32},
+            {"x": 1160, "y": 280, "width": 96, "height": 32},
+            {"x": 1310, "y": 340, "width": 112, "height": 32},
+            {"x": 1480, "y": 400, "width": 128, "height": 32}
+          ],
+          "enemies": [
+            {"type": "bird", "x": 320, "y": 390, "speed": 130, "patrolRange": 140},
+            {"type": "guard", "x": 430, "y": 370, "speed": 80, "patrolRange": 100},
+            {"type": "bird", "x": 540, "y": 310, "speed": 135, "patrolRange": 150},
+            {"type": "rodent", "x": 650, "y": 250, "speed": 100, "patrolRange": 105},
+            {"type": "guard", "x": 780, "y": 190, "speed": 75, "patrolRange": 90},
+            {"type": "bird", "x": 900, "y": 210, "speed": 140, "patrolRange": 160},
+            {"type": "guard", "x": 1050, "y": 310, "speed": 85, "patrolRange": 120},
+            {"type": "bird", "x": 1210, "y": 210, "speed": 135, "patrolRange": 150},
+            {"type": "rodent", "x": 1360, "y": 310, "speed": 95, "patrolRange": 100}
+          ],
+          "collectibles": [
+            {"type": "pi_coin", "x": 190, "y": 460},
+            {"type": "pi_coin", "x": 320, "y": 410},
+            {"type": "dates", "x": 430, "y": 350},
+            {"type": "pi_coin", "x": 540, "y": 290},
+            {"type": "pi_coin", "x": 650, "y": 230},
+            {"type": "olive_oil", "x": 780, "y": 170},
+            {"type": "pi_coin", "x": 900, "y": 230},
+            {"type": "bread", "x": 1050, "y": 290},
+            {"type": "pi_coin", "x": 1210, "y": 230},
+            {"type": "dates", "x": 1360, "y": 290},
+            {"type": "olive_oil", "x": 1530, "y": 350}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Olive Countryside",
+      "nameAr": "ريف الزيتون",
+      "description": "Climb through the olive groves",
+      "descriptionAr": "تسلق عبر بساتين الزيتون",
+      "icon": "🫒",
+      "color": 2595168,
+      "levels": [
+        {
+          "id": 21,
+          "name": "Olive Trees",
+          "difficulty": "medium",
+          "worldId": 5,
+          "goalX": 1490,
+          "layout": [
+            {"x": 190, "y": 490, "width": 128, "height": 32},
+            {"x": 370, "y": 440, "width": 96, "height": 32},
+            {"x": 530, "y": 390, "width": 112, "height": 32},
+            {"x": 710, "y": 440, "width": 96, "height": 32},
+            {"x": 870, "y": 390, "width": 128, "height": 32},
+            {"x": 1070, "y": 340, "width": 112, "height": 32},
+            {"x": 1250, "y": 390, "width": 128, "height": 32},
+            {"x": 1440, "y": 450, "width": 128, "height": 32}
+          ],
+          "enemies": [
+            {"type": "rodent", "x": 420, "y": 410, "speed": 80, "patrolRange": 110}
+          ],
+          "collectibles": [
+            {"type": "pi_coin", "x": 240, "y": 440},
+            {"type": "pi_coin", "x": 420, "y": 390},
+            {"type": "pi_coin", "x": 580, "y": 340},
+            {"type": "dates", "x": 760, "y": 390},
+            {"type": "pi_coin", "x": 920, "y": 340},
+            {"type": "bread", "x": 1120, "y": 290}
+          ]
+        },
+        {
+          "id": 22,
+          "name": "Farm Platforms",
+          "difficulty": "medium",
+          "worldId": 5,
+          "goalX": 1550,
+          "layout": [
+            {"x": 180, "y": 500, "width": 112, "height": 32},
+            {"x": 340, "y": 450, "width": 80, "height": 32},
+            {"x": 480, "y": 390, "width": 96, "height": 32},
+            {"x": 630, "y": 330, "width": 80, "height": 32},
+            {"x": 770, "y": 390, "width": 112, "height": 32},
+            {"x": 940, "y": 330, "width": 96, "height": 32},
+            {"x": 1100, "y": 390, "width": 112, "height": 32},
+            {"x": 1270, "y": 450, "width": 128, "height": 32},
+            {"x": 1460, "y": 500, "width": 128, "height": 32}
+          ],
+          "enemies": [
+            {"type": "bird", "x": 390, "y": 380, "speed": 105, "patrolRange": 140},
+            {"type": "rodent", "x": 680, "y": 300, "speed": 85, "patrolRange": 100},
+            {"type": "guard", "x": 820, "y": 360, "speed": 65, "patrolRange": 120}
+          ],
+          "collectibles": [
+            {"type": "pi_coin", "x": 230, "y": 450},
+            {"type": "pi_coin", "x": 390, "y": 400},
+            {"type": "pi_coin", "x": 530, "y": 340},
+            {"type": "olive_oil", "x": 680, "y": 280},
+            {"type": "pi_coin", "x": 820, "y": 340},
+            {"type": "pi_coin", "x": 990, "y": 280},
+            {"type": "dates", "x": 1150, "y": 340},
+            {"type": "bread", "x": 1320, "y": 400}
+          ]
+        },
+        {
+          "id": 23,
+          "name": "Vertical Grove",
+          "difficulty": "medium",
+          "worldId": 5,
+          "goalX": 1600,
+          "layout": [
+            {"x": 170, "y": 490, "width": 96, "height": 32},
+            {"x": 300, "y": 430, "width": 64, "height": 32},
+            {"x": 410, "y": 370, "width": 80, "height": 32},
+            {"x": 540, "y": 310, "width": 64, "height": 32},
+            {"x": 660, "y": 370, "width": 96, "height": 32},
+            {"x": 810, "y": 310, "width": 80, "height": 32},
+            {"x": 950, "y": 250, "width": 96, "height": 32},
+            {"x": 1110, "y": 310, "width": 80, "height": 32},
+            {"x": 1250, "y": 370, "width": 112, "height": 32},
+            {"x": 1420, "y": 310, "width": 96, "height": 32},
+            {"x": 1570, "y": 390, "width": 128, "height": 32}
+          ],
+          "enemies": [
+            {"type": "bird", "x": 350, "y": 360, "speed": 110, "patrolRange": 130},
+            {"type": "rodent", "x": 460, "y": 340, "speed": 90, "patrolRange": 100},
+            {"type": "bird", "x": 710, "y": 300, "speed": 115, "patrolRange": 150},
+            {"type": "guard", "x": 860, "y": 280, "speed": 70, "patrolRange": 110},
+            {"type": "rodent", "x": 1160, "y": 280, "speed": 85, "patrolRange": 95}
+          ],
+          "collectibles": [
+            {"type": "pi_coin", "x": 220, "y": 440},
+            {"type": "pi_coin", "x": 350, "y": 380},
+            {"type": "dates", "x": 460, "y": 320},
+            {"type": "pi_coin", "x": 590, "y": 260},
+            {"type": "pi_coin", "x": 710, "y": 320},
+            {"type": "olive_oil", "x": 860, "y": 260},
+            {"type": "pi_coin", "x": 1000, "y": 200},
+            {"type": "bread", "x": 1160, "y": 260},
+            {"type": "pi_coin", "x": 1300, "y": 320},
+            {"type": "pi_coin", "x": 1470, "y": 260}
+          ]
+        },
+        {
+          "id": 24,
+          "name": "Harvest Time",
+          "difficulty": "hard",
+          "worldId": 5,
+          "goalX": 1650,
+          "layout": [
+            {"x": 160, "y": 500, "width": 96, "height": 32},
+            {"x": 290, "y": 450, "width": 64, "height": 32},
+            {"x": 400, "y": 390, "width": 64, "height": 32},
+            {"x": 510, "y": 330, "width": 80, "height": 32},
+            {"x": 640, "y": 270, "width": 64, "height": 32},
+            {"x": 760, "y": 330, "width": 96, "height": 32},
+            {"x": 910, "y": 270, "width": 80, "height": 32},
+            {"x": 1050, "y": 330, "width": 96, "height": 32},
+            {"x": 1200, "y": 390, "width": 112, "height": 32},
+            {"x": 1370, "y": 330, "width": 96, "height": 32},
+            {"x": 1520, "y": 270, "width": 128, "height": 32}
+          ],
+          "enemies": [
+            {"type": "bird", "x": 340, "y": 380, "speed": 120, "patrolRange": 130},
+            {"type": "rodent", "x": 450, "y": 360, "speed": 95, "patrolRange": 100},
+            {"type": "bird", "x": 590, "y": 300, "speed": 125, "patrolRange": 140},
+            {"type": "guard", "x": 810, "y": 300, "speed": 75, "patrolRange": 110},
+            {"type": "bird", "x": 960, "y": 200, "speed": 130, "patrolRange": 150},
+            {"type": "rodent", "x": 1100, "y": 300, "speed": 90, "patrolRange": 95},
+            {"type": "guard", "x": 1250, "y": 360, "speed": 80, "patrolRange": 120}
+          ],
+          "collectibles": [
+            {"type": "pi_coin", "x": 210, "y": 450},
+            {"type": "pi_coin", "x": 340, "y": 400},
+            {"type": "pi_coin", "x": 450, "y": 340},
+            {"type": "dates", "x": 560, "y": 280},
+            {"type": "pi_coin", "x": 690, "y": 220},
+            {"type": "olive_oil", "x": 810, "y": 280},
+            {"type": "pi_coin", "x": 960, "y": 220},
+            {"type": "bread", "x": 1100, "y": 280},
+            {"type": "pi_coin", "x": 1250, "y": 340},
+            {"type": "dates", "x": 1420, "y": 280},
+            {"type": "pi_coin", "x": 1570, "y": 220}
+          ]
+        },
+        {
+          "id": 25,
+          "name": "Olive Boss",
+          "difficulty": "hard",
+          "worldId": 5,
+          "goalX": 1710,
+          "layout": [
+            {"x": 150, "y": 510, "width": 96, "height": 32},
+            {"x": 280, "y": 460, "width": 64, "height": 32},
+            {"x": 390, "y": 400, "width": 64, "height": 32},
+            {"x": 500, "y": 340, "width": 64, "height": 32},
+            {"x": 610, "y": 280, "width": 80, "height": 32},
+            {"x": 740, "y": 220, "width": 64, "height": 32},
+            {"x": 860, "y": 280, "width": 96, "height": 32},
+            {"x": 1010, "y": 340, "width": 112, "height": 32},
+            {"x": 1170, "y": 280, "width": 96, "height": 32},
+            {"x": 1320, "y": 340, "width": 112, "height": 32},
+            {"x": 1490, "y": 400, "width": 128, "height": 32}
+          ],
+          "enemies": [
+            {"type": "bird", "x": 330, "y": 390, "speed": 130, "patrolRange": 140},
+            {"type": "guard", "x": 440, "y": 370, "speed": 80, "patrolRange": 100},
+            {"type": "bird", "x": 550, "y": 310, "speed": 135, "patrolRange": 150},
+            {"type": "rodent", "x": 660, "y": 250, "speed": 100, "patrolRange": 105},
+            {"type": "guard", "x": 790, "y": 190, "speed": 75, "patrolRange": 90},
+            {"type": "bird", "x": 910, "y": 210, "speed": 140, "patrolRange": 160},
+            {"type": "guard", "x": 1060, "y": 310, "speed": 85, "patrolRange": 120},
+            {"type": "bird", "x": 1220, "y": 210, "speed": 135, "patrolRange": 150},
+            {"type": "rodent", "x": 1370, "y": 310, "speed": 95, "patrolRange": 100}
+          ],
+          "collectibles": [
+            {"type": "pi_coin", "x": 200, "y": 460},
+            {"type": "pi_coin", "x": 330, "y": 410},
+            {"type": "dates", "x": 440, "y": 350},
+            {"type": "pi_coin", "x": 550, "y": 290},
+            {"type": "pi_coin", "x": 660, "y": 230},
+            {"type": "olive_oil", "x": 790, "y": 170},
+            {"type": "pi_coin", "x": 910, "y": 230},
+            {"type": "bread", "x": 1060, "y": 290},
+            {"type": "pi_coin", "x": 1220, "y": 230},
+            {"type": "dates", "x": 1370, "y": 290},
+            {"type": "olive_oil", "x": 1540, "y": 350}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Legendary Mixed",
+      "nameAr": "العالم الأسطوري",
+      "description": "Face the ultimate challenge",
+      "descriptionAr": "واجه التحدي النهائي",
+      "icon": "👑",
+      "color": 10181046,
+      "levels": [
+        {
+          "id": 26,
+          "name": "Mixed World 1",
+          "difficulty": "hard",
+          "worldId": 6,
+          "goalX": 1700,
+          "layout": [
+            {"x": 160, "y": 500, "width": 96, "height": 32},
+            {"x": 280, "y": 450, "width": 64, "height": 32},
+            {"x": 380, "y": 390, "width": 64, "height": 32},
+            {"x": 490, "y": 330, "width": 64, "height": 32},
+            {"x": 600, "y": 270, "width": 80, "height": 32},
+            {"x": 730, "y": 330, "width": 96, "height": 32},
+            {"x": 880, "y": 270, "width": 80, "height": 32},
+            {"x": 1020, "y": 330, "width": 96, "height": 32},
+            {"x": 1170, "y": 390, "width": 112, "height": 32},
+            {"x": 1340, "y": 330, "width": 96, "height": 32},
+            {"x": 1490, "y": 270, "width": 128, "height": 32}
+          ],
+          "enemies": [
+            {"type": "guard", "x": 330, "y": 420, "speed": 80, "patrolRange": 110},
+            {"type": "bird", "x": 540, "y": 300, "speed": 125, "patrolRange": 140},
+            {"type": "rodent", "x": 780, "y": 300, "speed": 95, "patrolRange": 100},
+            {"type": "guard", "x": 930, "y": 240, "speed": 75, "patrolRange": 110},
+            {"type": "bird", "x": 1070, "y": 260, "speed": 130, "patrolRange": 150}
+          ],
+          "collectibles": [
+            {"type": "pi_coin", "x": 210, "y": 450},
+            {"type": "pi_coin", "x": 330, "y": 400},
+            {"type": "dates", "x": 430, "y": 340},
+            {"type": "pi_coin", "x": 540, "y": 280},
+            {"type": "olive_oil", "x": 650, "y": 220},
+            {"type": "pi_coin", "x": 780, "y": 280},
+            {"type": "bread", "x": 930, "y": 220},
+            {"type": "pi_coin", "x": 1070, "y": 280},
+            {"type": "pi_coin", "x": 1220, "y": 340}
+          ]
+        },
+        {
+          "id": 27,
+          "name": "Mixed World 2",
+          "difficulty": "hard",
+          "worldId": 6,
+          "goalX": 1730,
+          "layout": [
+            {"x": 150, "y": 510, "width": 96, "height": 32},
+            {"x": 270, "y": 460, "width": 64, "height": 32},
+            {"x": 370, "y": 400, "width": 64, "height": 32},
+            {"x": 480, "y": 340, "width": 64, "height": 32},
+            {"x": 590, "y": 280, "width": 64, "height": 32},
+            {"x": 700, "y": 220, "width": 80, "height": 32},
+            {"x": 830, "y": 280, "width": 96, "height": 32},
+            {"x": 980, "y": 340, "width": 112, "height": 32},
+            {"x": 1140, "y": 280, "width": 96, "height": 32},
+            {"x": 1290, "y": 340, "width": 112, "height": 32},
+            {"x": 1460, "y": 400, "width": 128, "height": 32}
+          ],
+          "enemies": [
+            {"type": "bird", "x": 320, "y": 390, "speed": 130, "patrolRange": 140},
+            {"type": "guard", "x": 420, "y": 370, "speed": 85, "patrolRange": 105},
+            {"type": "rodent", "x": 530, "y": 310, "speed": 100, "patrolRange": 110},
+            {"type": "bird", "x": 640, "y": 250, "speed": 135, "patrolRange": 150},
+            {"type": "guard", "x": 750, "y": 190, "speed": 80, "patrolRange": 95},
+            {"type": "bird", "x": 880, "y": 210, "speed": 140, "patrolRange": 160},
+            {"type": "rodent", "x": 1030, "y": 310, "speed": 95, "patrolRange": 100}
+          ],
+          "collectibles": [
+            {"type": "pi_coin", "x": 200, "y": 460},
+            {"type": "pi_coin", "x": 320, "y": 410},
+            {"type": "pi_coin", "x": 420, "y": 350},
+            {"type": "dates", "x": 530, "y": 290},
+            {"type": "pi_coin", "x": 640, "y": 230},
+            {"type": "olive_oil", "x": 750, "y": 170},
+            {"type": "pi_coin", "x": 880, "y": 230},
+            {"type": "bread", "x": 1030, "y": 290},
+            {"type": "pi_coin", "x": 1190, "y": 230},
+            {"type": "dates", "x": 1340, "y": 290}
+          ]
+        },
+        {
+          "id": 28,
+          "name": "Mixed World 3",
+          "difficulty": "very_hard",
+          "worldId": 6,
+          "goalX": 1760,
+          "layout": [
+            {"x": 140, "y": 500, "width": 96, "height": 32},
+            {"x": 260, "y": 450, "width": 64, "height": 32},
+            {"x": 360, "y": 390, "width": 64, "height": 32},
+            {"x": 470, "y": 330, "width": 64, "height": 32},
+            {"x": 580, "y": 270, "width": 64, "height": 32},
+            {"x": 690, "y": 210, "width": 80, "height": 32},
+            {"x": 820, "y": 270, "width": 96, "height": 32},
+            {"x": 970, "y": 210, "width": 80, "height": 32},
+            {"x": 1110, "y": 270, "width": 96, "height": 32},
+            {"x": 1260, "y": 330, "width": 112, "height": 32},
+            {"x": 1430, "y": 270, "width": 96, "height": 32},
+            {"x": 1580, "y": 330, "width": 128, "height": 32}
+          ],
+          "enemies": [
+            {"type": "bird", "x": 310, "y": 380, "speed": 135, "patrolRange": 140},
+            {"type": "guard", "x": 410, "y": 360, "speed": 90, "patrolRange": 105},
+            {"type": "bird", "x": 520, "y": 300, "speed": 140, "patrolRange": 150},
+            {"type": "rodent", "x": 630, "y": 240, "speed": 105, "patrolRange": 110},
+            {"type": "guard", "x": 740, "y": 180, "speed": 85, "patrolRange": 95},
+            {"type": "bird", "x": 870, "y": 200, "speed": 145, "patrolRange": 160},
+            {"type": "guard", "x": 1020, "y": 180, "speed": 90, "patrolRange": 100},
+            {"type": "rodent", "x": 1160, "y": 240, "speed": 100, "patrolRange": 105},
+            {"type": "bird", "x": 1310, "y": 260, "speed": 140, "patrolRange": 150}
+          ],
+          "collectibles": [
+            {"type": "pi_coin", "x": 190, "y": 450},
+            {"type": "pi_coin", "x": 310, "y": 400},
+            {"type": "dates", "x": 410, "y": 340},
+            {"type": "pi_coin", "x": 520, "y": 280},
+            {"type": "pi_coin", "x": 630, "y": 220},
+            {"type": "olive_oil", "x": 740, "y": 160},
+            {"type": "pi_coin", "x": 870, "y": 220},
+            {"type": "bread", "x": 1020, "y": 160},
+            {"type": "pi_coin", "x": 1160, "y": 220},
+            {"type": "dates", "x": 1310, "y": 280},
+            {"type": "olive_oil", "x": 1480, "y": 220}
+          ]
+        },
+        {
+          "id": 29,
+          "name": "Mixed World 4",
+          "difficulty": "very_hard",
+          "worldId": 6,
+          "goalX": 1800,
+          "layout": [
+            {"x": 130, "y": 510, "width": 96, "height": 32},
+            {"x": 250, "y": 460, "width": 64, "height": 32},
+            {"x": 350, "y": 400, "width": 64, "height": 32},
+            {"x": 460, "y": 340, "width": 64, "height": 32},
+            {"x": 570, "y": 280, "width": 64, "height": 32},
+            {"x": 680, "y": 220, "width": 64, "height": 32},
+            {"x": 790, "y": 160, "width": 80, "height": 32},
+            {"x": 920, "y": 220, "width": 96, "height": 32},
+            {"x": 1070, "y": 280, "width": 112, "height": 32},
+            {"x": 1230, "y": 340, "width": 96, "height": 32},
+            {"x": 1380, "y": 280, "width": 112, "height": 32},
+            {"x": 1550, "y": 340, "width": 128, "height": 32}
+          ],
+          "enemies": [
+            {"type": "guard", "x": 300, "y": 430, "speed": 95, "patrolRange": 110},
+            {"type": "bird", "x": 400, "y": 370, "speed": 145, "patrolRange": 145},
+            {"type": "rodent", "x": 510, "y": 310, "speed": 110, "patrolRange": 115},
+            {"type": "bird", "x": 620, "y": 250, "speed": 150, "patrolRange": 155},
+            {"type": "guard", "x": 730, "y": 190, "speed": 90, "patrolRange": 100},
+            {"type": "bird", "x": 840, "y": 130, "speed": 145, "patrolRange": 160},
+            {"type": "guard", "x": 970, "y": 190, "speed": 95, "patrolRange": 105},
+            {"type": "rodent", "x": 1120, "y": 250, "speed": 105, "patrolRange": 110},
+            {"type": "bird", "x": 1280, "y": 270, "speed": 140, "patrolRange": 150},
+            {"type": "guard", "x": 1430, "y": 250, "speed": 100, "patrolRange": 120}
+          ],
+          "collectibles": [
+            {"type": "pi_coin", "x": 180, "y": 460},
+            {"type": "pi_coin", "x": 300, "y": 410},
+            {"type": "pi_coin", "x": 400, "y": 350},
+            {"type": "dates", "x": 510, "y": 290},
+            {"type": "pi_coin", "x": 620, "y": 230},
+            {"type": "pi_coin", "x": 730, "y": 170},
+            {"type": "olive_oil", "x": 840, "y": 110},
+            {"type": "pi_coin", "x": 970, "y": 170},
+            {"type": "bread", "x": 1120, "y": 230},
+            {"type": "pi_coin", "x": 1280, "y": 290},
+            {"type": "dates", "x": 1430, "y": 230},
+            {"type": "olive_oil", "x": 1600, "y": 290}
+          ]
+        },
+        {
+          "id": 30,
+          "name": "Final Boss - The Legend",
+          "difficulty": "extreme",
+          "worldId": 6,
+          "goalX": 1850,
+          "layout": [
+            {"x": 120, "y": 520, "width": 96, "height": 32},
+            {"x": 240, "y": 470, "width": 64, "height": 32},
+            {"x": 340, "y": 410, "width": 64, "height": 32},
+            {"x": 450, "y": 350, "width": 64, "height": 32},
+            {"x": 560, "y": 290, "width": 64, "height": 32},
+            {"x": 670, "y": 230, "width": 64, "height": 32},
+            {"x": 780, "y": 170, "width": 80, "height": 32},
+            {"x": 910, "y": 230, "width": 96, "height": 32},
+            {"x": 1060, "y": 290, "width": 80, "height": 32},
+            {"x": 1190, "y": 230, "width": 96, "height": 32},
+            {"x": 1340, "y": 290, "width": 112, "height": 32},
+            {"x": 1510, "y": 350, "width": 96, "height": 32},
+            {"x": 1660, "y": 410, "width": 128, "height": 32}
+          ],
+          "enemies": [
+            {"type": "guard", "x": 290, "y": 440, "speed": 100, "patrolRange": 120},
+            {"type": "bird", "x": 390, "y": 380, "speed": 150, "patrolRange": 150},
+            {"type": "rodent", "x": 500, "y": 320, "speed": 115, "patrolRange": 120},
+            {"type": "bird", "x": 610, "y": 260, "speed": 155, "patrolRange": 160},
+            {"type": "guard", "x": 720, "y": 200, "speed": 95, "patrolRange": 110},
+            {"type": "bird", "x": 830, "y": 140, "speed": 150, "patrolRange": 165},
+            {"type": "guard", "x": 960, "y": 200, "speed": 100, "patrolRange": 115},
+            {"type": "bird", "x": 1110, "y": 260, "speed": 145, "patrolRange": 155},
+            {"type": "rodent", "x": 1240, "y": 200, "speed": 110, "patrolRange": 125},
+            {"type": "guard", "x": 1390, "y": 260, "speed": 105, "patrolRange": 125},
+            {"type": "bird", "x": 1560, "y": 320, "speed": 150, "patrolRange": 160}
+          ],
+          "collectibles": [
+            {"type": "pi_coin", "x": 170, "y": 470},
+            {"type": "pi_coin", "x": 290, "y": 420},
+            {"type": "dates", "x": 390, "y": 360},
+            {"type": "pi_coin", "x": 500, "y": 300},
+            {"type": "pi_coin", "x": 610, "y": 240},
+            {"type": "olive_oil", "x": 720, "y": 180},
+            {"type": "pi_coin", "x": 830, "y": 120},
+            {"type": "bread", "x": 960, "y": 180},
+            {"type": "pi_coin", "x": 1110, "y": 240},
+            {"type": "dates", "x": 1240, "y": 180},
+            {"type": "pi_coin", "x": 1390, "y": 240},
+            {"type": "olive_oil", "x": 1560, "y": 300},
+            {"type": "bread", "x": 1710, "y": 360}
+          ]
+        }
+      ]
+    }
+  ]
+}
