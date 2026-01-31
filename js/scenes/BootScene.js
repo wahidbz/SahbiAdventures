@@ -56,11 +56,22 @@ class BootScene extends Phaser.Scene {
     }
 
     create() {
-        // Initialize Pi Network
-        piNetwork.initialize().then(() => {
-            console.log('Pi Network initialized');
-            // Move to preload scene
-            this.scene.start('PreloadScene');
+      
+create() {
+    console.log("BootScene started");
+
+    if (typeof piNetwork !== "undefined") {
+        piNetwork.initialize()
+        .then(() => {
+            console.log("Pi Ready");
+            this.scene.start("PreloadScene");
+        })
+        .catch(() => {
+            console.log("Pi Failed - continue anyway");
+            this.scene.start("PreloadScene");
         });
+    } else {
+        console.log("Pi Not Found - continue anyway");
+        this.scene.start("PreloadScene");
     }
 }
